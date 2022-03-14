@@ -1,0 +1,332 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding-right: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*-------------------------------------------------------------------------------------- header --------------------------------------------------------------------------------------*/
+.header{
+    background-color: #F6F6F9;
+    margin-bottom: 22px;
+}
+.header .header-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
+.header .header-inner .header-top .header-top-left{
+    display: flex;
+    align-items: center;
+}
+.header .header-inner .header-top .header-top-left .header-logo{
+    margin-right: 17px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+    border-radius: 5px;
+    padding: 4px 8px;
+}
+.header .header-inner .header-top .header-top-left .currency span{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+.header .header-inner .header-top .header-top-left .currency b{
+    color: #285193;
+}
+.header .header-inner .header-top .header-top-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .header-inner .header-top .header-top-right .lupa{
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 7px 11px;
+    margin-right: 31.5px;
+}
+.header .header-inner .header-top .header-top-right .russia{
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 7px 11px;
+    margin-right: 23.5px;
+}
+.header .header-inner .header-top .header-top-right .russia img{
+    border-radius: 15px;
+    background-color: white; 
+}
+.header .header-inner .header-top .header-top-right .telegram-logo{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 11px;
+}
+.header .header-inner .header-top .header-top-right .telegram-logo img{
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+}
+.header .header-inner .header-middle{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+    padding: 21px 24px;
+    margin-bottom: 18px;
+}
+.header .header-inner .header-middle .nav-links{
+    padding: 22px 12.5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #515151;
+}
+.header .header-inner .header-middle .nav-links:hover{
+    color:  #295091;
+}
+.header .header-bottom {
+    display: flex;
+    padding-bottom: 23px;
+    justify-content: center;
+}
+/*-------------------------------------------------------------------------------------- covid-info ------------------------------------------------------------------------------------*/
+.container .covid-info{
+    background: #F6F6F9;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 30px 35px;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.container .covid-info .info-item{
+    display: flex;
+    padding-right: 40px;
+    border-right: 2px solid  #EB5569;
+}
+.container .covid-info .info-item:last-child{
+    display: flex;
+    border-right: none;
+   
+}
+
+.container .covid-info .info-item img{ 
+    padding-right: 25px;
+}
+/*------------------------------------------------------------------------------------- news-list---------------------------------------------------------------------------------------- */
+.news-list{
+    
+}
+.news-list .news-list-left{
+    width: 70%;
+}
+.news-list .news-list-left h3{
+    margin-top: 12px;
+    margin-bottom: 13px;
+}
+.news-list .news-list-left .list-left{
+    display: flex;
+}
+.news-list .news-list-left .list-left img{
+    margin-right: 19px;
+    margin-bottom: 18px;
+    background: url(image.png);
+    border-radius: 5px;
+}
+.news-list .news-list-left .list-left-items .text_item{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+}
+.news-list .news-list-left .list-left-items p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #434343;
+    margin-top: 8px;
+}
+.news-list .news-list-left .list-left-items span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.news-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+/* ---------------------------------------------------------------------------news-right------------------------------------------------------------------------------------------------ */
+.news-list .news-right .news-right-block{
+    background: #F6F6F9;
+    border-radius: 5px;
+    margin-left: 36px;
+    width: 386px;
+    
+}
+.news-list .news-right .news-right-block h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;  
+    color: #202020;
+    padding: 16px 20px;
+    margin-bottom: 6px;
+    align-items: center;
+}
+.news-list .news-right .news-right-block p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+    padding-left: 20px;
+    padding-right: 20px;  
+}
+.news-list .news-right .news-right-block .date{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+    margin-bottom: 14px;
+}
+.news-list .news-right img{
+    margin-top: 20px;
+    margin-left: 37px;
+}
+.more-news{
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+.more-news a{
+    background: #295093;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 10px 32px;
+    justify-content: center;
+}
+/* ----------------------------------------------------------------------------------------footer--------------------------------------------------------------------------------------- */
+footer{
+    background: #295093;
+}
+footer .footer-inner .footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-bottom: 4px solid #295093;;
+    align-items: center;
+}
+footer .footer-inner .footer-top .footer-top-logo{
+    background: #133C82;
+    border-radius: 5px;
+    padding: 10px;
+}
+footer .footer-inner .footer-top .footer-top-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-right: 17px;
+}
+.footer-top-right{
+    display: flex;
+    align-items: center;
+}
+footer .footer-inner .footer-top .footer-top-telegram{
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #295093;
+
+}
+footer .footer-inner .footer-top .footer-top-telegram img{
+   margin-right: 7px;
+   text-decoration: none;
+}
+footer .footer-inner .footer-bottom{
+    display: flex;
+    padding: 12px 0;
+}
+footer .footer-inner .footer-bottom .footer-about{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-right: 100px;
+}
+footer .footer-inner .footer-bottom .footer-list-item{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-right: 100px;
+    list-style-type: none;
+    margin-bottom: 10px;
+    
+}
+footer .footer-inner .footer-bottom .footer-list-item .footer-link-item {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer .footer-inner .footer-bottom .footer-list-item .footer-link-item a{
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer .footer-inner .footer-bottom .footer-list-item:first-child{
+   margin-right: 100px;
+}
